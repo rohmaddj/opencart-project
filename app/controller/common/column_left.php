@@ -361,10 +361,10 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 
-			if ($this->user->hasPermission('access', 'marketing/vouchers')) {
+			if ($this->user->hasPermission('access', 'marketing/voucher')) {
 				$marketing[] = array(
 					'name'		=> $this->language->get('text_vouchers'),
-					'href'		=> $this->url->link('marketing/vouchers', 'token=' . $this->session->data['token'], true),
+					'href'		=> $this->url->link('marketing/voucher', 'token=' . $this->session->data['token'], true),
 					'children'	=> array()
 				);
 			}

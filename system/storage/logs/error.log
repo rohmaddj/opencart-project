@@ -12733,3 +12733,18 @@
 2018-01-30 7:25:52 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
 2018-01-30 7:26:37 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
 2018-01-30 7:26:37 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:47:14 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:47:14 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:47:47 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:47:47 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:48:16 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:48:16 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:49:15 - PHP Notice:  Error: Could not load template /Applications/MAMP/htdocs/opencart/app/view/template/marketing/voucher_list.tpl! in /Applications/MAMP/htdocs/opencart/system/storage/modification/system/library/template/php.php on line 23
+2018-01-30 9:52:03 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:52:03 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:57:06 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:57:06 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:58:41 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 9:58:41 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:02:23 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:02:23 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
