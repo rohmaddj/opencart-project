@@ -12748,3 +12748,172 @@
 2018-01-30 9:58:41 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
 2018-01-30 10:02:23 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
 2018-01-30 10:02:23 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:19:55 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:19:55 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:28:41 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:28:41 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:29:00 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:29:00 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:29:03 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/sale/order_list.tpl on line 309
+2018-01-30 10:29:03 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/sale/order_list.tpl on line 394
+2018-01-30 10:29:03 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/sale/order_list.tpl on line 479
+2018-01-30 10:29:03 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/sale/order_list.tpl on line 564
+2018-01-30 10:29:03 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/sale/order_list.tpl on line 649
+2018-01-30 10:36:00 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:36:00 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:36:15 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/sale/order_list.tpl on line 309
+2018-01-30 10:36:15 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/sale/order_list.tpl on line 394
+2018-01-30 10:36:15 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/sale/order_list.tpl on line 479
+2018-01-30 10:36:15 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/sale/order_list.tpl on line 564
+2018-01-30 10:36:15 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/sale/order_list.tpl on line 649
+2018-01-30 10:56:40 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-30 10:56:40 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 2:59:03 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 2:59:03 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 3:34:24 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 3:34:24 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:03:31 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:03:31 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:08:36 - PHP Notice:  Error: Could not load template /Applications/MAMP/htdocs/opencart/app/view/template/customer/member_list.tpl! in /Applications/MAMP/htdocs/opencart/system/storage/modification/system/library/template/php.php on line 23
+2018-01-31 4:10:52 - PHP Notice:  Error: Could not load template /Applications/MAMP/htdocs/opencart/app/view/template/customer/member_list.tpl! in /Applications/MAMP/htdocs/opencart/system/storage/modification/system/library/template/php.php on line 23
+2018-01-31 4:26:18 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:26:18 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:26:19 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:26:19 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:32:26 - PHP Notice:  Error: Could not load template /Applications/MAMP/htdocs/opencart/app/view/template/user/user_group_list.tpl! in /Applications/MAMP/htdocs/opencart/system/storage/modification/system/library/template/php.php on line 23
+2018-01-31 4:32:36 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:32:36 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:40:40 - PHP Notice:  Error: Could not load template /Applications/MAMP/htdocs/opencart/app/view/template/user/user_group_list.tpl! in /Applications/MAMP/htdocs/opencart/system/storage/modification/system/library/template/php.php on line 23
+2018-01-31 4:42:37 - PHP Notice:  Undefined index: subject in /Applications/MAMP/htdocs/opencart/app/controller/operation/email.php on line 79
+2018-01-31 4:42:37 - PHP Notice:  Undefined index: message in /Applications/MAMP/htdocs/opencart/app/controller/operation/email.php on line 83
+2018-01-31 4:42:53 - PHP Notice:  Undefined index: subject in /Applications/MAMP/htdocs/opencart/app/controller/operation/email.php on line 79
+2018-01-31 4:42:53 - PHP Notice:  Undefined index: message in /Applications/MAMP/htdocs/opencart/app/controller/operation/email.php on line 83
+2018-01-31 4:43:47 - PHP Notice:  Undefined index: subject in /Applications/MAMP/htdocs/opencart/app/controller/operation/email.php on line 79
+2018-01-31 4:43:47 - PHP Notice:  Undefined index: message in /Applications/MAMP/htdocs/opencart/app/controller/operation/email.php on line 83
+2018-01-31 4:43:51 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:43:51 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:44:16 - PHP Notice:  Undefined index: subject in /Applications/MAMP/htdocs/opencart/app/controller/operation/email.php on line 79
+2018-01-31 4:44:16 - PHP Notice:  Undefined index: message in /Applications/MAMP/htdocs/opencart/app/controller/operation/email.php on line 83
+2018-01-31 4:44:34 - PHP Notice:  Undefined index: subject in /Applications/MAMP/htdocs/opencart/app/controller/operation/email.php on line 79
+2018-01-31 4:44:34 - PHP Notice:  Undefined index: message in /Applications/MAMP/htdocs/opencart/app/controller/operation/email.php on line 83
+2018-01-31 4:45:40 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:45:40 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:55:30 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:55:30 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:55:33 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:55:33 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 4:57:54 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:57:54 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:57:54 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:57:54 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:57:54 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:00 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:00 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:00 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:00 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:00 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:08 - PHP Warning:  A non-numeric value encountered in /Applications/MAMP/htdocs/opencart/app/controller/operation/order.php on line 3988
+2018-01-31 4:58:31 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:31 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:31 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:31 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:31 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:34 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:34 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:34 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:34 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:34 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:39 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:39 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:39 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:39 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:39 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:46 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:46 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:46 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:46 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:46 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:48 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:48 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:48 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:48 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:48 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:48 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:48 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:48 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:48 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:48 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:49 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:49 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:49 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:49 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:49 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:50 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:50 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:50 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:50 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:50 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:51 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:51 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:51 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:51 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:51 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:52 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:52 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:52 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:52 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:52 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:53 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:53 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:53 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:53 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:53 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:53 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:53 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:53 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:53 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:53 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:54 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:54 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:54 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:54 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:54 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:55 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:55 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:55 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:55 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:55 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:56 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:56 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:56 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:56 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:56 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 4:58:56 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 4:58:56 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 4:58:56 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 4:58:56 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 4:58:56 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 5:04:44 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 5:04:44 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 5:04:44 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 5:04:44 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 5:04:44 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 5:10:01 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 5:10:01 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 5:20:30 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 5:20:30 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-01-31 5:20:32 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 5:20:32 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 5:20:32 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 5:20:32 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 5:20:32 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 5:29:23 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 5:29:23 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 5:29:23 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 5:29:23 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 5:29:23 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649
+2018-01-31 5:29:33 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 309
+2018-01-31 5:29:33 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 394
+2018-01-31 5:29:33 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 479
+2018-01-31 5:29:33 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 564
+2018-01-31 5:29:33 - PHP Warning:  strtolower() expects parameter 1 to be string, array given in /Applications/MAMP/htdocs/opencart/app/view/template/operation/order_list.tpl on line 649

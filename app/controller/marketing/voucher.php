@@ -173,7 +173,7 @@ class ControllerMarketingVoucher extends Controller {
 
 		foreach ($results as $result) {
 			if ($result['order_id']) {	
-				$order_href = $this->url->link('sale/order/info', 'token=' . $this->session->data['token'] . '&order_id=' . $result['order_id'] . $url, true);
+				$order_href = $this->url->link('operation/order/info', 'token=' . $this->session->data['token'] . '&order_id=' . $result['order_id'] . $url, true);
 			} else {
 				$order_href = '';
 			}
@@ -529,13 +529,13 @@ class ControllerMarketingVoucher extends Controller {
 			$this->error['warning'] = $this->language->get('error_permission');
 		}
 
-		$this->load->model('sale/order');
+		$this->load->model('operation/order');
 
 		foreach ($this->request->post['selected'] as $voucher_id) {
-			$order_voucher_info = $this->model_sale_order->getOrderVoucherByVoucherId($voucher_id);
+			$order_voucher_info = $this->model_operation_order->getOrderVoucherByVoucherId($voucher_id);
 
 			if ($order_voucher_info) {
-				$this->error['warning'] = sprintf($this->language->get('error_order'), $this->url->link('sale/order/info', 'token=' . $this->session->data['token'] . '&order_id=' . $order_voucher_info['order_id'], true));
+				$this->error['warning'] = sprintf($this->language->get('error_order'), $this->url->link('operation/order/info', 'token=' . $this->session->data['token'] . '&order_id=' . $order_voucher_info['order_id'], true));
 
 				break;
 			}

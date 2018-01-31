@@ -129,3 +129,29 @@ $_['text_vouchers']					 = 'Vouchers';
 $_['text_wechat']					 = 'Wechat';
 $_['text_tracker']					 = 'Tracker';
 $_['text_facebook']					 = 'Facebook';
+
+//new customer
+$_['text_member']					 = 'Members';
+$_['text_channel']					 = 'Channels';
+$_['text_review']					 = 'Reviews';
+$_['text_survey']					 = 'Surveys';
+
+//new pos menu
+$_['text_pos']					 	 = 'POS';
+$_['text_remak']					 = 'Remaks';
+$_['text_commission']				 = 'Commission';
+$_['text_layout']					 = 'Layouts';
+$_['text_addon']					 = 'Add-ons';
+$_['text_posmenu']					 = 'POS Menu';
+$_['text_possetting']				 = 'POS Settings';
+
+//new setting
+$_['text_setting']				 = 'Settings';
+$_['text_company']				 = 'Company';
+$_['text_store']				 = 'Stores';
+$_['text_shipping']				 = 'Shipping';
+$_['text_payment']				 = 'Payment';
+
+
+
+
