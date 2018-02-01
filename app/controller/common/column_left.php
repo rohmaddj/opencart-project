@@ -268,10 +268,10 @@ class ControllerCommonColumnLeft extends Controller {
 			// operations
 			$operation = array();
 
-			if ($this->user->hasPermission('access', 'operation/order')) {
+			if ($this->user->hasPermission('access', 'sale/order')) {
 				$operation[] = array(
 					'name'		=> $this->language->get('text_order'),
-					'href'		=> $this->url->link('operation/order', 'token=' . $this->session->data['token'], true),
+					'href'		=> $this->url->link('sale/order', 'token=' . $this->session->data['token'], true),
 					'children'	=> array()
 				);
 			}
@@ -284,10 +284,10 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 
-			if ($this->user->hasPermission('access', 'operation/userroles')) {
+			if ($this->user->hasPermission('access', 'user/user_permission')) {
 				$operation[] = array(
 					'name'		=> $this->language->get('text_userroles'),
-					'href'		=> $this->url->link('operation/userroles', 'token=' . $this->session->data['token'], true),
+					'href'		=> $this->url->link('user/user_permission', 'token=' . $this->session->data['token'], true),
 					'children'	=> array()
 				);
 			}
@@ -300,10 +300,10 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 
-			if ($this->user->hasPermission('access', 'operation/email')) {
+			if ($this->user->hasPermission('access', 'marketing/contact')) {
 				$operation[] = array(
 					'name'		=> $this->language->get('text_email'),
-					'href'		=> $this->url->link('operation/email', 'token=' . $this->session->data['token'], true),
+					'href'		=> $this->url->link('marketing/contact', 'token=' . $this->session->data['token'], true),
 					'children'	=> array()
 				);
 			}
@@ -361,10 +361,10 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 
-			if ($this->user->hasPermission('access', 'marketing/voucher')) {
+			if ($this->user->hasPermission('access', 'sale/voucher')) {
 				$marketing[] = array(
 					'name'		=> $this->language->get('text_vouchers'),
-					'href'		=> $this->url->link('marketing/voucher', 'token=' . $this->session->data['token'], true),
+					'href'		=> $this->url->link('sale/voucher', 'token=' . $this->session->data['token'], true),
 					'children'	=> array()
 				);
 			}
@@ -561,10 +561,10 @@ class ControllerCommonColumnLeft extends Controller {
 				);	
 			}
 			
-			if ($this->user->hasPermission('access', 'customer/member')) {
+			if ($this->user->hasPermission('access', 'user/user')) {
 				$customer[] = array(
 					'name'	   => $this->language->get('text_member'),
-					'href'     => $this->url->link('customer/member', 'token=' . $this->session->data['token'], true),
+					'href'     => $this->url->link('user/user', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
 				);
 			}

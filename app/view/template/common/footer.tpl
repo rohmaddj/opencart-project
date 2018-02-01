@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	window.onload = function() {
 		// bar all order
 	    var ctx = document.getElementById("canvas").getContext("2d");
@@ -119,7 +119,7 @@
 	    var ctx5 = document.getElementById("paymentmode").getContext("2d");
         window.myPie = new Chart(ctx5, paymentmode);
 	};
-</script>
+</script> -->
 <footer class="main-footer sticky footer-type-1">
 				
 				<div class="footer-inner">
