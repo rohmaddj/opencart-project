@@ -59,7 +59,9 @@
                     <?php } ?></td>
                   <td class="text-left"><?php echo $category['name']; ?></td>
                   <td class="text-right"><?php echo $category['sort_order']; ?></td>
-                  <td class="text-right"><a href="<?php echo $category['edit']; ?>" data-toggle="tooltip" title="<?php echo $button_edit; ?>" class="btn btn-primary"><i class="fa fa-pencil"></i></a></td>
+                  <td class="text-right">
+                    <button type="button" data-toggle="popover" title="<?php echo $category['name']; ?>" class="btn btn-info" data-placement="left" data-content="<?php echo $category['description'];?>"><i class="fa fa-eye"></i></button>
+                    <a href="<?php echo $category['edit']; ?>" data-toggle="tooltip" title="<?php echo $button_edit; ?>" class="btn btn-primary"><i class="fa fa-pencil"></i></a></td>
                 </tr>
                 <?php } ?>
                 <?php } else { ?>

@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="view/assets/js/datatables/dataTables.bootstrap.css">
 	<link rel="stylesheet" href="view/assets/js/daterangepicker/daterangepicker-bs3.css">
 	<!-- Bottom Scripts -->
+	<script scr="view/javascript/jquery/jquery-2.1.1.min.js"></script>
 	<script src="view/assets/js/bootstrap.min.js"></script>
 	<script src="view/assets/js/TweenMax.min.js"></script>
 	<script src="view/assets/js/resizeable.js"></script>

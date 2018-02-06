@@ -403,6 +403,7 @@ class ControllerCatalogProduct extends Controller {
 				'product_id' => $result['product_id'],
 				'image'      => $image,
 				'name'       => $result['name'],
+				'cname'		 => $result['c_name'],
 				'model'      => $result['model'],
 				'price'      => $result['price'],
 				'special'    => $special,

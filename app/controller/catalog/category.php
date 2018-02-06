@@ -110,6 +110,22 @@ class ControllerCatalogCategory extends Controller {
 		$this->getList();
 	}
 
+	public function info() {
+		$this->load->language('catalog/category');
+		$this->load->model('catalog/category');
+
+		if (isset($this->request->get['category_id'])) {
+			$category_id = $this->request->get['category_id'];
+		} else {
+			$category_id = 0;
+		}
+
+		$category_info = $this->model_catalog_category->getCategory($category_id);
+
+		echo $data['description'] = $category_info['description'];
+
+	}
+
 	public function repair() {
 		$this->load->language('catalog/category');
 
@@ -200,6 +216,14 @@ class ControllerCatalogCategory extends Controller {
 			'limit' => $this->config->get('config_limit_admin')
 		);
 
+		if (isset($this->request->get['category_id'])) {
+			$category_id = $this->request->get['category_id'];
+		} else {
+			$category_id = 0;
+		}
+
+		$category_info = $this->model_catalog_category->getCategory($category_id);
+
 		$category_total = $this->model_catalog_category->getTotalCategories();
 
 		$results = $this->model_catalog_category->getCategories($filter_data);
@@ -208,7 +232,9 @@ class ControllerCatalogCategory extends Controller {
 			$data['categories'][] = array(
 				'category_id' => $result['category_id'],
 				'name'        => $result['name'],
+				'description' => $result['description'],
 				'sort_order'  => $result['sort_order'],
+				'view'        => $this->url->link('catalog/category/info', 'token=' . $this->session->data['token'] . '&category_id=' . $result['category_id'] . $url, true),
 				'edit'        => $this->url->link('catalog/category/edit', 'token=' . $this->session->data['token'] . '&category_id=' . $result['category_id'] . $url, true),
 				'delete'      => $this->url->link('catalog/category/delete', 'token=' . $this->session->data['token'] . '&category_id=' . $result['category_id'] . $url, true)
 			);
@@ -226,6 +252,7 @@ class ControllerCatalogCategory extends Controller {
 
 		$data['button_add'] = $this->language->get('button_add');
 		$data['button_edit'] = $this->language->get('button_edit');
+		$data['button_view'] = $this->language->get('button_view');
 		$data['button_delete'] = $this->language->get('button_delete');
 		$data['button_rebuild'] = $this->language->get('button_rebuild');
 
