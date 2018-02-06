@@ -221,23 +221,7 @@ class ControllerCommonColumnLeft extends Controller {
 			
 			// Catalog
 			$catalog = array();
-			
-			if ($this->user->hasPermission('access', 'catalog/category')) {
-				$catalog[] = array(
-					'name'	   => $this->language->get('text_category'),
-					'href'     => $this->url->link('catalog/category', 'token=' . $this->session->data['token'], true),
-					'children' => array()		
-				);
-			}
 
-			if ($this->user->hasPermission('access', 'catalog/menus')) {
-				$catalog[] = array(
-					'name'		=> $this->language->get('text_menus'),
-					'href'		=> $this->url->link('catalog/menus', 'token=' . $this->session->data['token'], true),
-					'children'	=> array()
-				);
-			}
-			
 			if ($this->user->hasPermission('access', 'catalog/product')) {
 				$catalog[] = array(
 					'name'	   => $this->language->get('text_product'),
@@ -246,12 +230,27 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 			
+			if ($this->user->hasPermission('access', 'catalog/category')) {
+				$catalog[] = array(
+					'name'	   => $this->language->get('text_category'),
+					'href'     => $this->url->link('catalog/category', 'token=' . $this->session->data['token'], true),
+					'children' => array()		
+				);
+			}
 			
 			if ($this->user->hasPermission('access', 'catalog/option')) {
 				$catalog[] = array(
 					'name'	   => $this->language->get('text_option'),
 					'href'     => $this->url->link('catalog/option', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
+				);
+			}
+
+			if ($this->user->hasPermission('access', 'catalog/attribute')) {
+				$catalog[] = array(
+					'name'		=> $this->language->get('text_attribute'),
+					'href'		=> $this->url->link('catalog/attribute', 'token=' . $this->session->data['token'], true),
+					'children'	=> array()
 				);
 			}
 			

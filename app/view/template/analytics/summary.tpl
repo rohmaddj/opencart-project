@@ -13,31 +13,31 @@
           
           <ul class="nav nav-tabs nav-tabs-justified">
             <li class="active">
-              <a href="#home-3" data-toggle="tab">
+              <a href="#sales" data-toggle="tab">
                 <span class="visible-xs"><i class="fa-home"></i></span>
                 <span class="hidden-xs">Sales</span>
               </a>
             </li>
             <li>
-              <a href="#profile-3" data-toggle="tab">
+              <a href="#outlet" data-toggle="tab">
                 <span class="visible-xs"><i class="fa-user"></i></span>
                 <span class="hidden-xs">Outlet</span>
               </a>
             </li>
             <li>
-              <a href="#messages-3" data-toggle="tab">
+              <a href="#product" data-toggle="tab">
                 <span class="visible-xs"><i class="fa-envelope-o"></i></span>
                 <span class="hidden-xs">Product</span>
               </a>
             </li>
             <li>
-              <a href="#settings-3" data-toggle="tab">
+              <a href="#customer" data-toggle="tab">
                 <span class="visible-xs"><i class="fa-cog"></i></span>
                 <span class="hidden-xs">Customer</span>
               </a>
             </li>
             <li>
-              <a href="#inbox-3" data-toggle="tab">
+              <a href="#discount" data-toggle="tab">
                 <span class="visible-xs"><i class="fa-bell-o"></i></span>
                 <span class="hidden-xs">Discounts</span>
               </a>
@@ -47,7 +47,7 @@
     </div>
           
     <div class="tab-content">
-      <div class="tab-pane active" id="home-3">
+      <div class="tab-pane active" id="sales">
 
       <div class="panel panel-default">
         <div class="panel-body">
@@ -250,7 +250,7 @@
       </div>
       </div>
       </div>
-      <div class="tab-pane" id="profile-3">
+      <div class="tab-pane" id="outlet">
         
         <div class="panel panel-default">
         <div class="panel-body">
@@ -453,8 +453,8 @@
             <table class="table table-bordered table-hover">
               <thead>
                 <tr>
-                  <td>Patrons</td>
-                  <td>Count</td>
+                  <td style="background: black; color: white; font-style: bold">Patrons</td>
+                  <td style="background: black; color: white; font-style: bold">Count</td>
                 </tr>
               </thead>
               <tbody>
@@ -506,8 +506,8 @@
             <table class="table table-bordered table-hover">
               <thead>
                 <tr>
-                  <td>Patrons</td>
-                  <td>Count</td>
+                  <td style="background: black; color: white; font-style: bold">Patrons</td>
+                  <td style="background: black; color: white; font-style: bold">Count</td>
                 </tr>
               </thead>
               <tbody>
@@ -556,23 +556,250 @@
       </div>
       </div>
       </div>
-      <div class="tab-pane" id="messages-3">
+      <div class="tab-pane" id="product">
         
-        <p>When be draw drew ye. Defective in do recommend suffering. House it seven in spoil tiled court. Sister others marked fat missed did out use. Alteration possession dispatched collecting instrument travelling he or on. Snug give made at spot or late that mr. </p>
-        
-        <p>Carriage quitting securing be appetite it declared. High eyes kept so busy feel call in. Would day nor ask walls known. But preserved advantage are but and certainty earnestly enjoyment. Passage weather as up am exposed. And natural related man subject. Eagerness get situation his was delighted. </p>
+        <div class="panel panel-default">
+        <div class="panel-body">
+
+        <div class="form-group"> <label class="col-sm-3 control-label"><h3 style="color: black">Outlet Analytics</h3></label> <div class="col-sm-6"> <div class="input-group"><input type="text" class="form-control"> <span class="input-group-addon"><i class="fa-binoculars"></i></span> </div> </div> <div class="col-sm-2"><button class="btn btn-blue" style="border-radius: 7px">Filter</button></div></div>
+        <div class="col-md-12" style="opacity: 0.1;padding: 10px">.</div>
+
+        <div class="col-md-4"></div><div class="col-md-4">
+          
+          <ul class="nav nav-tabs nav-tabs-justified">
+            <li class="active">
+              <a href="#" data-toggle="tab">
+                <span class="visible-xs"><i class="fa-home"></i></span>
+                <span class="hidden-xs">By Category</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" data-toggle="tab">
+                <span class="visible-xs"><i class="fa-user"></i></span>
+                <span class="hidden-xs">By Product</span>
+              </a>
+            </li>
+          </ul>
+      </div>
+      <div class="col-md-12" style="padding: 15px"></div>
+      <div class="col-sm-4"></div><div class="col-md-6" style="padding-bottom: 25px">Categories :
+        <label class="checkbox-inline"> <input type="checkbox">Top 5</label>
+        <label class="checkbox-inline"> <input type="checkbox">Top 10</label>
+        <label class="checkbox-inline"> <input type="checkbox">Top 15</label>
+        <label class="checkbox-inline"> <input type="checkbox">Compare</label>
+      </div>
+
+      <div class="col-sm-4">
+        <div id="container"">
+          <canvas id="canvas24" height="200px"></canvas>
+        </div>
+        <script type="text/javascript">
+          var doughnutChartDataProduct = {
+            datasets: [{
+              backgroundColor: ['#64ce0f','#335aea','#33eaea', '#dfea33'],
+              data: [10,20,40,50]
+            }]
+          };
+        </script>
+        </div>
+
+        <div class="col-sm-4">
+        <div id="container"">
+          <canvas id="canvas25" height="200px"></canvas>
+        </div>
+        <script type="text/javascript">
+          var doughnutChartDataProduct1 = {
+            datasets: [{
+              backgroundColor: ['#64ce0f','#335aea','#33eaea', '#dfea33'],
+              data: [10,20,40,50]
+            }]
+          };
+        </script>
+        </div>
+
+        <div class="col-sm-4">
+        <div id="container"">
+          <canvas id="canvas26" height="200px"></canvas>
+        </div>
+        <script type="text/javascript">
+          var doughnutChartDataProduct2 = {
+            datasets: [{
+              backgroundColor: ['#64ce0f','#335aea','#33eaea', '#dfea33'],
+              data: [10,20,40,50]
+            }]
+          };
+        </script>
+        </div>
+
+        <div class="col-md-12" style="padding-top: 40px">
+          <div id="container"">
+          <canvas id="canvas27" height="200px"></canvas>
+        </div>
+          <script type="text/javascript">
+            var bubleData = {
+                datasets: [{
+                  label: 'bebek',
+                  backgroundColor: 'red',
+                  data: [{
+                    x: 68,
+                    y: 47,
+                    r: 27
+                  }]
+                }, {
+                  label: 'bebek 2',
+                  backgroundColor: 'green',
+                  data: [{
+                    x: 62,
+                    y: 33,
+                    r: 20
+                  }]
+                }, {
+                  label: 'bebek 3',
+                  backgroundColor: 'yellow',
+                  data: [{
+                    x: 76,
+                    y: 38,
+                    r: 29
+                  }]
+                }, {
+                  label: 'bebek 4',
+                  backgroundColor: 'purple',
+                  data: [{
+                    x: 80,
+                    y: 34,
+                    r: 23
+                  }]
+                }]
+              };
+          </script>
+        </div>
+
+        <div class="col-sm-2" style="float: right;">
+          <button class="btn btn-white btn-icon btn-icon-standalone">
+            <i class="fa-download"></i>
+              <span>Download</span>
+          </button>
+        </div>
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+              <thead>
+                <tr>
+                  <td>Category</td>
+                  <td>Sales</td>
+                  <td>Quantity</td>
+                  <td>Hit</td>
+                  <td><i class="fa-chevron-circle-up"> Sales</td>
+                  <td>Gross Profit</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1. Drinks</td>
+                  <td>$50,000 (<i class="fa-arrow-up" style="color: blue"></i>5%)</td>
+                  <td>$10,000 (<i class="fa-arrow-down" style="color: red"></i>15%)</td>
+                  <td>$10,000 (<i class="fa-arrow-down" style="color: red"></i>20%)</td>
+                  <td>$50,000 (<i class="fa-arrow-up" style="color: blue"></i>5%)</td>
+                  <td>$50,000 (<i class="fa-arrow-up" style="color: blue"></i>10%)</td>
+                </tr>
+                <tr>
+                  <td>2. Lunch Set</td>
+                  <td>$2.000 (<i class="fa-arrow-up" style="color: blue"></i>1%)</td>
+                  <td>$0,100 (<i class="fa-arrow-down" style="color: red"></i>12%)</td>
+                  <td>$50,000 (<i class="fa-arrow-up" style="color: blue"></i>5%)</td>
+                  <td>$0,100 (<i class="fa-arrow-down" style="color: red"></i>12%)</td>
+                  <td>$50,000 (<i class="fa-arrow-up" style="color: blue"></i>5%)</td>
+                </tr>
+                <tr>
+                  <td>3. Breakfast</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>5. Drinking set</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
     
       </div>
       
-      <div class="tab-pane" id="settings-3">
+      <div class="tab-pane" id="customer">
           
-        <p>Luckily friends do ashamed to do suppose. Tried meant mr smile so. Exquisite behaviour as to middleton perfectly. Chicken no wishing waiting am. Say concerns dwelling graceful six humoured. Whether mr up savings talking an. Active mutual nor father mother exeter change six did all. </p>
-        
-        <p>Carriage quitting securing be appetite it declared. High eyes kept so busy feel call in. Would day nor ask walls known. But preserved advantage are but and certainty earnestly enjoyment. Passage weather as up am exposed. And natural related man subject. Eagerness get situation his was delighted. </p>
+        <div class="panel panel-default">
+        <div class="panel-body">
+
+        <div class="form-group"> <label class="col-sm-3 control-label"><h3 style="color: black">Sales Analytics</h3></label> <div class="col-sm-6"> <div class="input-group"><input type="text" class="form-control"> <span class="input-group-addon"><i class="fa-binoculars"></i></span> </div> </div> <div class="col-sm-2"><button class="btn btn-blue" style="border-radius: 7px">Filter</button></div></div>
+        <div class="col-md-12" style="opacity: 0.1;padding: 10px">.</div>
+
+        <div class="col-sm-6">
+          <button class="btn btn-primary btn-lg" style="border-radius: 8px">W D</button>
+          <div id="container"">
+            <canvas id="canvas28" height="180px"></canvas>
+          </div>
+          <script type="text/javascript">
+              var doughnutChartDataCustomer = {
+                datasets: [{
+                  backgroundColor: ['#64ce0f','#335aea','#33eaea', '#dfea33'],
+                  data: [10,20,40,50]
+              }]
+              };
+        </script>
+        </div>
+        <div class="col-sm-6">
+          <button class="btn btn-danger btn-lg" style="border-radius: 8px">W E</button>
+          <div id="container"">
+            <canvas id="canvas29" height="180px"></canvas>
+          </div>
+          <script type="text/javascript">
+              var doughnutChartDataCustomer1 = {
+                datasets: [{
+                  backgroundColor: ['#64ce0f','#335aea','#33eaea', '#dfea33'],
+                  data: [10,20,40,50]
+              }]
+              };
+        </script>
+        </div>
+        <div class="col-md-6" style="text-align: center;padding-top: 10px;font-size: 20px;color: black">Average Daily - 350(<i class="fa-arrow-up" style="color: blue"></i> 2%)</div>
+        <div class="col-md-6" style="text-align: center;padding-top: 10px;font-size: 20px;color: black">Average Daily - 350(<i class="fa-arrow-up" style="color: blue"></i> 2%)</div>
+
+        <div class="col-md-12" style="padding-top: 40px"><div id="container">
+          <canvas id="canvas30"></canvas>
+          <script type="text/javascript">
+            var horizontalbarData = {
+              labels: [" ", " ", " ", " "],
+              datasets: [{
+                backgroundColor: 'rgb(244, 244, 66)',
+                data: [5,10,15,20]
+              }, {
+                backgroundColor: 'rgb(221, 221, 217)',
+                data: [6,7,8,9]
+              }, {
+                backgroundColor: 'rgb(147, 88, 0)',
+                data: [7,8,9,19]
+              }]
+            };
+          </script>
+        </div>
+      </div>
+      </div>
+    </div>
   
       </div>
       
-      <div class="tab-pane" id="inbox-3">
+      <div class="tab-pane" id="discount">
           
         <p>Carriage quitting securing be appetite it declared. High eyes kept so busy feel call in. Would day nor ask walls known. But preserved advantage are but and certainty earnestly enjoyment. Passage weather as up am exposed. And natural related man subject. Eagerness get situation his was delighted. </p>
         
@@ -582,6 +809,69 @@
     </div>
     <script type="text/javascript">
       window.onload = function() {
+
+      //start chart dougnut plugin
+      Chart.pluginService.register({
+            afterUpdate: function (chart) {
+                if (chart.config.options.elements.center) {
+                    var helpers = Chart.helpers;
+                    var centerConfig = chart.config.options.elements.center;
+                    var globalConfig = Chart.defaults.global;
+                    var ctx = chart.chart.ctx;
+
+                    var fontStyle = helpers.getValueOrDefault(centerConfig.fontStyle, globalConfig.defaultFontStyle);
+                    var fontFamily = helpers.getValueOrDefault(centerConfig.fontFamily, globalConfig.defaultFontFamily);
+
+                    if (centerConfig.fontSize)
+                        var fontSize = centerConfig.fontSize;
+                    // figure out the best font size, if one is not specified
+                    else {
+                        ctx.save();
+                        var fontSize = helpers.getValueOrDefault(centerConfig.minFontSize, 1);
+                        var maxFontSize = helpers.getValueOrDefault(centerConfig.maxFontSize, 256);
+                        var maxText = helpers.getValueOrDefault(centerConfig.maxText, centerConfig.text);
+
+                        do {
+                            ctx.font = helpers.fontString(fontSize, fontStyle, fontFamily);
+                            var textWidth = ctx.measureText(maxText).width;
+
+                            // check if it fits, is within configured limits and that we are not simply toggling back and forth
+                            if (textWidth < chart.innerRadius * 2 && fontSize < maxFontSize)
+                                fontSize += 1;
+                            else {
+                                // reverse last step
+                                fontSize -= 1;
+                                break;
+                            }
+                        } while (true)
+                        ctx.restore();
+                    }
+
+                    // save properties
+                    chart.center = {
+                        font: helpers.fontString(fontSize, fontStyle, fontFamily),
+                        fillStyle: helpers.getValueOrDefault(centerConfig.fontColor, globalConfig.defaultFontColor)
+                    };
+                }
+            },
+            afterDraw: function (chart) {
+                if (chart.center) {
+                    var centerConfig = chart.config.options.elements.center;
+                    var ctx = chart.chart.ctx;
+
+                    ctx.save();
+                    ctx.font = chart.center.font;
+                    ctx.fillStyle = chart.center.fillStyle;
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    var centerX = (chart.chartArea.left + chart.chartArea.right) / 2;
+                    var centerY = (chart.chartArea.top + chart.chartArea.bottom) / 2;
+                    ctx.fillText(centerConfig.text, centerX, centerY);
+                    ctx.restore();
+                }
+            },
+        }); // end of chart dougnut plugin
+
         var ctx10 = document.getElementById("canvas10").getContext("2d");
         window.myBar1 = new Chart(ctx10, {
           type: 'bar',
@@ -645,6 +935,16 @@
       window.mybar3 = new Chart(ctx12, {
         type: 'doughnut',
         data: doughnutChartData,
+        options: {
+          elements: {
+            center: {
+              text: 'Total Patrons',
+              color: '#36A2EB', //Default black
+              fontStyle: 'Helvetica', //Default Arial
+              sidePadding: 15 //Default 20 (as a percentage)
+            }
+        }
+      }
 
       });
 
@@ -869,6 +1169,16 @@
       window.mybar22 = new Chart(ctx22, {
         type: 'doughnut',
         data: doughnutChartDataOutlet,
+        options: {
+          elements: {
+            center: {
+              text: 'Total Patrons',
+              color: '#36A2EB', //Default black
+              fontStyle: 'Helvetica', //Default Arial
+              sidePadding: 15 //Default 20 (as a percentage)
+            }
+        }
+      }
 
       });
 
@@ -876,7 +1186,182 @@
       window.mybar23 = new Chart(ctx23, {
         type: 'doughnut',
         data: doughnutChartDataOutlet1,
+        options: {
+          elements: {
+            center: {
+              text: 'Total Patrons',
+              color: '#36A2EB', //Default black
+              fontStyle: 'Helvetica', //Default Arial
+              sidePadding: 15 //Default 20 (as a percentage)
+            }
+        }
+      }
 
+      });
+
+      var ctx24 = document.getElementById("canvas24").getContext("2d");
+      window.mybar24 = new Chart(ctx24, {
+        type: 'doughnut',
+        data: doughnutChartDataProduct,
+        options: {
+          elements: {
+            center: {
+              text: 'Top 5',
+              color: '#36A2EB', //Default black
+              fontStyle: 'Helvetica', //Default Arial
+              sidePadding: 15 //Default 20 (as a percentage)
+            }
+        }
+      }
+
+      });
+
+      var ctx25 = document.getElementById("canvas25").getContext("2d");
+      window.mybar25 = new Chart(ctx25, {
+        type: 'doughnut',
+        data: doughnutChartDataProduct1,
+        options: {
+          elements: {
+            center: {
+              text: 'Top 10',
+              color: '#36A2EB', //Default black
+              fontStyle: 'Helvetica', //Default Arial
+              sidePadding: 15 //Default 20 (as a percentage)
+            }
+        }
+      }
+
+      });
+
+      var ctx26 = document.getElementById("canvas26").getContext("2d");
+      window.mybar26 = new Chart(ctx26, {
+        type: 'doughnut',
+        data: doughnutChartDataProduct2,
+        options: {
+          elements: {
+            center: {
+              text: 'Top 15',
+              color: '#36A2EB', //Default black
+              fontStyle: 'Helvetica', //Default Arial
+              sidePadding: 15 //Default 20 (as a percentage)
+            }
+        }
+      }
+
+      });
+
+      var ctx27 = document.getElementById("canvas27").getContext("2d");
+      window.mybar27 = new Chart(ctx27, {
+        type: 'bubble',
+        data: bubleData,
+        options: {
+          legend: {
+            display: true,
+            position: 'left',
+            align: 'center'
+          },
+          aspectRatio: 1,
+          elements: {
+            point: {
+              hoverBackgroundColor: 'transparent',
+              hoverBorderWidth: 5
+            }
+          },
+          responsive: true,
+          scales: {
+            xAxes: [{
+              scaleLabel: {
+                display: true,
+                fontSize: 20,
+                fontFamily: 'Arial',
+                labelString: 'Quantity'
+              },
+              ticks: {
+                display: false,
+                min: 2,
+                max: 90
+                },
+              gridLines: {
+                display:false,
+                drawBorder: false
+              }
+            }],
+            yAxes: [{
+              scaleLabel: {
+              display: true,
+              fontSize: 20,
+              fontFamily: 'Arial',
+              labelString: 'Sales $'
+            },
+              ticks: {
+                display: false,
+                max: 60,
+                min: 0,
+                stepSize: 5
+                }
+             }]
+          }
+        }
+      });
+
+      var ctx28 = document.getElementById("canvas28").getContext("2d");
+      window.mybar28 = new Chart(ctx28, {
+        type: 'doughnut',
+        data: doughnutChartDataCustomer,
+        options: {
+          elements: {
+            center: {
+              text: 'Total Patrons',
+              color: '#36A2EB', //Default black
+              fontStyle: 'Helvetica', //Default Arial
+              sidePadding: 15 //Default 20 (as a percentage)
+            }
+        }
+      }
+      });
+
+      var ctx29 = document.getElementById("canvas29").getContext("2d");
+      window.mybar29 = new Chart(ctx29, {
+        type: 'doughnut',
+        data: doughnutChartDataCustomer1,
+        options: {
+          elements: {
+            center: {
+              text: 'Total Patrons',
+              color: '#36A2EB', //Default black
+              fontStyle: 'Helvetica', //Default Arial
+              sidePadding: 15 //Default 20 (as a percentage)
+            }
+        }
+      }
+      });
+
+      var ctx30 = document.getElementById("canvas30").getContext("2d");
+      window.mybar30 = new Chart(ctx30, {
+        type: 'horizontalBar',
+        data: horizontalbarData,
+        options: {
+          legend: {
+            display: false
+          },
+          scales: {
+            xAxes: [{
+              stacked: true,
+              ticks: {
+                display: false,
+                min: 0,
+                max: 50,
+                stepSize: 10
+              }
+            }],
+            yAxes: [{
+              stacked: true,
+              gridLines: {
+                display: false
+              }
+            }]
+          }
+        }
       });
 
     };

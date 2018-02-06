@@ -351,8 +351,12 @@ class ModelCatalogProduct extends Model {
 			$sql .= " AND p.model LIKE '" . $this->db->escape($data['filter_model']) . "%'";
 		}
 
+		if (!empty($data['filter_category'])) {
+			$sql .= " AND p.category LIKE '" . $this->db->escape($data['filter_category']) . "%'"; // new category
+		}
+
 		if (isset($data['filter_price']) && !is_null($data['filter_price'])) {
-			$sql .= " AND p.price LIKE '" . $this->db->escape($data['filter_price']) . "%'";
+			$sql .= " AND p.price BETWEEN " . $this->db->escape($data['filter_price']) . " AND " . $this->db->escape($data['filter_price1']) . "";
 		}
 
 		if (isset($data['filter_quantity']) && !is_null($data['filter_quantity'])) {
@@ -376,6 +380,7 @@ class ModelCatalogProduct extends Model {
 		$sort_data = array(
 			'pd.name',
 			'p.model',
+			'p.category',
 			'p.price',
 			'p.quantity',
 			'p.status',

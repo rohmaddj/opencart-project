@@ -43,13 +43,25 @@
               </div>
             </div>
             <div class="col-sm-4">
+              <label class="control-label" for="input-price"><?php echo $entry_price; ?></label>
               <div class="form-group">
-                <label class="control-label" for="input-price"><?php echo $entry_price; ?></label>
-                <input type="text" name="filter_price" value="<?php echo $filter_price; ?>" placeholder="<?php echo $entry_price; ?>" id="input-price" class="form-control" />
+              <div class="col-sm-6" style="padding:0px 15px 0px 0px">
+                <input type="text" name="filter_price" value="<?php echo $filter_price; ?>" placeholder="from" id="input-price" class="form-control" />
               </div>
+              <div class="col-sm-6" style="padding: 0px 0px 0px 15px">
+                <input type="text" name="filter_price1" value="<?php echo $filter_price1; ?>" placeholder="to" id="input-price1" class="form-control" />
+              </div>
+              </div></br></br>
               <div class="form-group">
-                <label class="control-label" for="input-quantity"><?php echo $entry_quantity; ?></label>
-                <input type="text" name="filter_quantity" value="<?php echo $filter_quantity; ?>" placeholder="<?php echo $entry_quantity; ?>" id="input-quantity" class="form-control" />
+                <label class="control-label" for="input-category"><?php echo $entry_category; ?></label>
+                  <input type="text" name="filter_category" value="<?php echo $filter_category;?>" placeholder="<?php echo $entry_category; ?>" id="input-category" class="form-control" />
+                  <!-- <div id="product-category" class="well well-sm" style="height: 150px; overflow: auto;">
+                    <?php foreach ($product_categories as $product_category) { ?>
+                    <div id="product-category<?php echo $product_category['category_id']; ?>"><i class="fa fa-minus-circle"></i> <?php echo $product_category['name']; ?>
+                      <input type="hidden" name="product_category[]" value="<?php echo $product_category['category_id']; ?>" />
+                    </div>
+                    <?php } ?>
+                </div> -->
               </div>
             </div>
             <div class="col-sm-4">
@@ -69,22 +81,7 @@
                   <?php } ?>
                 </select>
               </div>
-              <div class="form-group">
-                <label class="control-label" for="input-image"><?php echo $entry_image; ?></label>
-                <select name="filter_image" id="input-image" class="form-control">
-                  <option value="*"></option>
-                  <?php if ($filter_image) { ?>
-                  <option value="1" selected="selected"><?php echo $text_enabled; ?></option>
-                  <?php } else { ?>
-                  <option value="1"><?php echo $text_enabled; ?></option>
-                  <?php } ?>
-                  <?php if (!$filter_image && !is_null($filter_image)) { ?>
-                  <option value="0" selected="selected"><?php echo $text_disabled; ?></option>
-                  <?php } else { ?>
-                  <option value="0"><?php echo $text_disabled; ?></option>
-                  <?php } ?>
-                </select>
-              </div>
+
               <button type="button" id="button-filter" class="btn btn-primary pull-right"><i class="fa fa-filter"></i> <?php echo $button_filter; ?></button>
             </div>
           </div>
@@ -95,12 +92,15 @@
               <thead>
                 <tr>
                   <td style="width: 1px;" class="text-center"><input type="checkbox" onclick="$('input[name*=\'selected\']').prop('checked', this.checked);" /></td>
-                  <td class="text-center"><?php echo $column_image; ?></td>
+                  <!-- <td class="text-center"><?php echo $column_image; ?></td> -->
                   <td class="text-left"><?php if ($sort == 'pd.name') { ?>
                     <a href="<?php echo $sort_name; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_name; ?></a>
                     <?php } else { ?>
                     <a href="<?php echo $sort_name; ?>"><?php echo $column_name; ?></a>
                     <?php } ?></td>
+                  <td class="text-left">
+                    Categories
+                  </td>
                   <td class="text-left"><?php if ($sort == 'p.model') { ?>
                     <a href="<?php echo $sort_model; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_model; ?></a>
                     <?php } else { ?>
@@ -133,12 +133,15 @@
                     <?php } else { ?>
                     <input type="checkbox" name="selected[]" value="<?php echo $product['product_id']; ?>" />
                     <?php } ?></td>
-                  <td class="text-center"><?php if ($product['image']) { ?>
+                  <!-- <td class="text-center"><?php if ($product['image']) { ?>
                     <img src="<?php echo $product['image']; ?>" alt="<?php echo $product['name']; ?>" class="img-thumbnail" />
                     <?php } else { ?>
                     <span class="img-thumbnail list"><i class="fa fa-camera fa-2x"></i></span>
-                    <?php } ?></td>
+                    <?php } ?></td> -->
                   <td class="text-left"><?php echo $product['name']; ?></td>
+                  <td class="text-right"><?php foreach ($product_categories as $category) { 
+                    echo $category['name']; 
+                  }?></td>
                   <td class="text-left"><?php echo $product['model']; ?></td>
                   <td class="text-right"><?php if ($product['special']) { ?>
                     <span style="text-decoration: line-through;"><?php echo $product['price']; ?></span><br/>
@@ -147,11 +150,11 @@
                     <?php echo $product['price']; ?>
                     <?php } ?></td>
                   <td class="text-right"><?php if ($product['quantity'] <= 0) { ?>
-                    <span class="label label-warning"><?php echo $product['quantity']; ?></span>
+                    <?php echo $product['quantity']; ?>
                     <?php } elseif ($product['quantity'] <= 5) { ?>
-                    <span class="label label-danger"><?php echo $product['quantity']; ?></span>
+                    <?php echo $product['quantity']; ?>
                     <?php } else { ?>
-                    <span class="label label-success"><?php echo $product['quantity']; ?></span>
+                    <?php echo $product['quantity']; ?>
                     <?php } ?></td>
                   <td class="text-left"><?php echo $product['status']; ?></td>
                   <td class="text-right"><a href="<?php echo $product['edit']; ?>" data-toggle="tooltip" title="<?php echo $button_edit; ?>" class="btn btn-primary"><i class="fa fa-pencil"></i></a></td>
@@ -189,11 +192,23 @@ $('#button-filter').on('click', function() {
 		url += '&filter_model=' + encodeURIComponent(filter_model);
 	}
 
+  var filter_category = $('input[name=\'filter_category\']').val();
+
+  if (filter_category) {
+    url += '&filter_category=' + encodeURIComponent(filter_category);
+  }
+
 	var filter_price = $('input[name=\'filter_price\']').val();
 
 	if (filter_price) {
 		url += '&filter_price=' + encodeURIComponent(filter_price);
 	}
+
+  var filter_price1 = $('input[name=\'filter_price1\']').val();
+
+  if (filter_price1) {
+    url += '&filter_price1=' + encodeURIComponent(filter_price1);
+  }
 
 	var filter_quantity = $('input[name=\'filter_quantity\']').val();
 
@@ -206,12 +221,6 @@ $('#button-filter').on('click', function() {
 	if (filter_status != '*') {
 		url += '&filter_status=' + encodeURIComponent(filter_status);
 	}
-
-  var filter_image = $('select[name=\'filter_image\']').val();
-
-  if (filter_image != '*') {
-    url += '&filter_image=' + encodeURIComponent(filter_image);
-  }
 
 	location = url;
 });
@@ -255,6 +264,35 @@ $('input[name=\'filter_model\']').autocomplete({
 	'select': function(item) {
 		$('input[name=\'filter_model\']').val(item['label']);
 	}
+});
+
+// Category
+$('input[name=\'filter_category\']').autocomplete({
+  'source': function(request, response) {
+    $.ajax({
+      url: 'index.php?route=catalog/category/autocomplete&token=<?php echo $token; ?>&filter_name=' +  encodeURIComponent(request),
+      dataType: 'json',
+      success: function(json) {
+        response($.map(json, function(item) {
+          return {
+            label: item['name'],
+            value: item['category_id']
+          }
+        }));
+      }
+    });
+  },
+  'select': function(item) {
+    $('input[name=\'filter_category\']').val(item['label']);
+
+    // $('#product-category' + item['value']).remove();
+
+    // $('#product-category').append('<div id="product-category' + item['value'] + '"><i class="fa fa-minus-circle"></i> ' + item['label'] + '<input type="hidden" name="product_category[]" value="' + item['value'] + '" /></div>');
+  }
+});
+
+$('#product-category').delegate('.fa-minus-circle', 'click', function() {
+  $(this).parent().remove();
 });
 //--></script></div>
 <?php echo $footer; ?>
