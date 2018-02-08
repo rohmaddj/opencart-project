@@ -16489,3 +16489,19 @@
 2018-02-06 7:18:02 - PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/opencart/app/controller/catalog/product.php on line 405
 2018-02-06 7:18:02 - PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/opencart/app/controller/catalog/product.php on line 405
 2018-02-06 7:18:02 - PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/opencart/app/controller/catalog/product.php on line 405
+2018-02-06 10:05:09 - PHP Notice:  Undefined variable: sort_cname in /Applications/MAMP/htdocs/opencart/app/view/template/catalog/product_list.tpl on line 104
+2018-02-06 10:05:22 - PHP Notice:  Undefined variable: sort_cname in /Applications/MAMP/htdocs/opencart/app/view/template/catalog/product_list.tpl on line 104
+2018-02-07 3:56:16 - PHP Notice:  Undefined variable: categories in /Applications/MAMP/htdocs/opencart/app/controller/catalog/product.php on line 404
+2018-02-07 3:56:16 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/controller/catalog/product.php on line 404
+2018-02-07 3:56:19 - PHP Notice:  Undefined variable: categories in /Applications/MAMP/htdocs/opencart/app/controller/catalog/product.php on line 404
+2018-02-07 3:56:19 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/controller/catalog/product.php on line 404
+2018-02-07 5:45:24 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-02-07 5:45:24 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-02-07 5:48:19 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-02-07 5:48:19 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-02-07 5:49:08 - PHP Notice:  Undefined variable: store in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-02-07 5:49:08 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/opencart/app/view/template/extension/dashboard/barallstore_info.tpl on line 11
+2018-02-07 8:34:15 - PHP Warning:  mysqli::query(): (21000/1242): Subquery returns more than 1 row in /Applications/MAMP/htdocs/opencart/system/library/db/mysqli.php on line 18
+2018-02-07 8:34:38 - PHP Warning:  mysqli::query(): (21000/1242): Subquery returns more than 1 row in /Applications/MAMP/htdocs/opencart/system/library/db/mysqli.php on line 18
+2018-02-07 8:35:01 - PHP Warning:  mysqli::query(): (21000/1242): Subquery returns more than 1 row in /Applications/MAMP/htdocs/opencart/system/library/db/mysqli.php on line 18
+2018-02-07 8:35:02 - PHP Warning:  mysqli::query(): (21000/1242): Subquery returns more than 1 row in /Applications/MAMP/htdocs/opencart/system/library/db/mysqli.php on line 18

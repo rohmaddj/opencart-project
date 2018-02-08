@@ -98,8 +98,11 @@
                     <?php } else { ?>
                     <a href="<?php echo $sort_name; ?>"><?php echo $column_name; ?></a>
                     <?php } ?></td>
-                  <td class="text-left">
-                    Categories
+                  <td class="text-left"><?php if ($sort == 'cd.name') { ?>
+                    <a href="<?php echo $sort_cname;?>" class="<?php echo strtolower($order);?>"><?php echo $column_category;?></a>
+                    <?php } else { ?>
+                    <a href="<?php echo $sort_cname;?>"><?php echo $column_category;?></a>
+                  <?php }?>
                   </td>
                   <td class="text-left"><?php if ($sort == 'p.model') { ?>
                     <a href="<?php echo $sort_model; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_model; ?></a>

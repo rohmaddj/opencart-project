@@ -110,22 +110,6 @@ class ControllerCatalogCategory extends Controller {
 		$this->getList();
 	}
 
-	public function info() {
-		$this->load->language('catalog/category');
-		$this->load->model('catalog/category');
-
-		if (isset($this->request->get['category_id'])) {
-			$category_id = $this->request->get['category_id'];
-		} else {
-			$category_id = 0;
-		}
-
-		$category_info = $this->model_catalog_category->getCategory($category_id);
-
-		echo $data['description'] = $category_info['description'];
-
-	}
-
 	public function repair() {
 		$this->load->language('catalog/category');
 
